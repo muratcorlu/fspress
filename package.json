@@ -1,0 +1,27 @@
+{
+  "name": "fspress",
+  "version": "0.1.0",
+  "description": "FileSystem driven ExpressJS backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fspress": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muratcorlu/fspress.git"
+  },
+  "author": "Murat Çorlu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/muratcorlu/fspress/issues"
+  },
+  "homepage": "https://github.com/muratcorlu/fspress#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "glob": "^7.1.7",
+    "nunjucks": "^3.2.3"
+  }
+}
