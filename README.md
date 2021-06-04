@@ -31,10 +31,12 @@ index.html
 
 If you run `flash` command in main folder of this project;
 
-`GET localhost:3000/` request (with `Accept: text/html` header) will return rendered result of `./index.html`
-`GET localhost:3000/messages/23123` request (with `Accept: text/html` header) will return rendered result of `./messages/:messageId/GET.html`
-`GET localhost:3000/messages/53242` request (with `Accept: application/json` header) will return content of `./messages/:messageId/GET.json`
-`POST localhost:3000/messages` request will be responded by express middleware exported in `./messages/POST.js`. Example:
+* `GET localhost:3000/` request (with `Accept: text/html` header) will return rendered result of `./index.html`
+* `GET localhost:3000/messages/23123` request (with `Accept: text/html` header) will return rendered result of `./messages/:messageId/GET.html`
+* `GET localhost:3000/messages/53242` request (with `Accept: application/json` header) will return content of `./messages/:messageId/GET.json`
+* `POST localhost:3000/messages` request will be responded by express middleware exported in `./messages/POST.js`.
+
+Example:
 
 ```js
 module.exports = (req, res) => {
