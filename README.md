@@ -29,7 +29,7 @@ messages
 index.html
 ```
 
-If you run `flash` command in main folder of this project;
+If you run `fspress` command in main folder of this project;
 
 * `GET localhost:3000/` request (with `Accept: text/html` header) will return rendered result of `./index.html`
 * `GET localhost:3000/messages/23123` request (with `Accept: text/html` header) will return rendered result of `./messages/:messageId/GET.html`
